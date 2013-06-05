@@ -1,0 +1,2 @@
+Some usefull Typescript classes.
+
