@@ -4,7 +4,9 @@ class Collection {
         private object: any[];
         private sort: (a: any, b: any) => number;
         private attr: number;
-
+        /** Allow mutiple equal objects in your collection? 
+            When are two objects equal?
+        */
         constructor(unique?: bool, equal?: (a:any,b:any)=>bool) {
             super();
             this.attr = 0;
