@@ -48,7 +48,7 @@ class Collection {
                     index = len;//richtig dass alte Laenge genommen wird!
                 }
             } else {
-                console.log("Collection must be sorted and unique, currently. (Contact: -)");
+                console.log("Collection must be sorted and unique, currently. (Contact: https://github.com/kingkrausel/typescript-classes)");
             }
             return true;
         }
